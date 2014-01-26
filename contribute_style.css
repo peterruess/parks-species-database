@@ -1,0 +1,62 @@
+/* Stylesheet for "Signup" section on the website */
+#main{
+	padding-bottom: 30px;
+}
+
+/* Give consistent margins for all direct child elements of main section */
+#main>*{
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+/*Give green underline to h2 header to make it consistent with search page */
+#main h2{
+	text-align: left;
+
+	border-bottom: solid 2px #2b570f;
+
+
+
+	font-weight: normal;
+}
+
+/*Form styling */
+form{
+	text-align: left;
+
+	/*slightly larger text */
+	font-size: 112.5%;
+}
+
+/*There are two columns of 6 form elements each. Float these two the left of each other */
+.col1, .col2{
+	float: left;
+
+	margin-top: 0px;
+	width: 375px;
+
+
+}
+
+
+
+/*Space out form elements */
+form div{
+	margin-top: 20px;
+	
+}
+
+/*Make labels same width to vertically align form elements */
+label, .align{
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+#sub_button{
+	font-size: 112.5%;
+}
+
+

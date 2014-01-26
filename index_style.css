@@ -1,0 +1,18 @@
+#main{
+	padding-bottom: 25px;
+}
+
+/*make header in main section larger */
+#main h1{
+	font-size: 200%;
+}
+
+/*Make paragraph in main section have larger text */
+#main p{
+	font-size: 112.5%;
+	text-align: left;
+
+	padding: 0px 20px 0px 20px;
+
+	margin-top: 30px; /*To give a little more spacing b/w paragraphs */
+}

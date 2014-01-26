@@ -1,0 +1,61 @@
+/*Specific Stylesheet for the "Discover" page of the NYC Parks' Species Database */
+
+#main{
+	text-align: left;
+
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+/* Give consistent margins for all direct child elements of main section */
+#main>*{
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+/*Make h2 headers stand out as to separate different search queries */
+#main h2{
+	text-align: left;
+
+	border-bottom: solid 2px #2b570f;
+
+
+
+	font-weight: normal;
+}
+
+#main h3{
+	font-weight: normal;
+
+}
+
+/*Some space b/w form elements, which are surrounded by label elements */
+label{
+	margin: 0px 2px 0px 2px;
+}
+
+/*align "search" buttons to center, and give some top margin */
+.button{
+	text-align: center;
+
+	margin-top: 15px;
+
+
+}
+
+/*Make "search" button font stand out */
+.button input{
+	font-size: 112.5%;
+}
+
+
+/*Make the commentary about searches a small font */
+.note{
+	font-size: 87.5%;
+}
+
+
+
+
+

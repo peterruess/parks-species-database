@@ -1,0 +1,22 @@
+/*A few extra styles for the register.php file */
+
+/*Make main section and header wider to fit the large researchers table */
+#main, header{
+
+	width: 90%;
+
+	min-width: 1152px;
+}
+
+/*Make the commentary a small font */
+.note{
+	font-size: 87.5%;
+	text-align: left;
+}
+
+
+/*Give a little less padding for cells to help fit table */
+th, td{
+
+	padding: 7px 5px 7px 5px;
+}

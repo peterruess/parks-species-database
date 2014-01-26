@@ -1,0 +1,7 @@
+/*Make main section and header wider to fit the large table that this page displays */
+#main, header{
+
+	width: 90%;
+
+	min-width: 1152px;
+}

@@ -1,0 +1,66 @@
+/*Stylesheet for sightings, obtained from both species and park queries */
+
+/*Make header and main section wider to accommodate relatively-large amt. of material in tables */
+#main, header{
+	
+	width: 75%;
+	min-width: 960px;
+
+}
+
+#main{
+	text-align: center;
+
+	/*In case long table runs close to bottom of main section */
+	padding-bottom: 30px;
+}
+
+/* Give consistent margins for all direct child elements of main section */
+#main>*{
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+/*Give green underline to h2 header to make it consistent with search page */
+#main h2{
+	text-align: left;
+
+	border-bottom: solid 2px #2b570f;
+
+
+
+	font-weight: normal;
+}
+
+/*Style the tables */
+
+#main>table{
+
+	border-collapse: collapse;
+	width: 93.75%;
+
+	margin: 20px auto 0px auto; /*So table will be centered inside main area */
+}
+
+
+
+th, td{
+	border: solid 1px #000000;
+
+	padding: 10px 7px 10px 7px;
+}
+
+/*Make all images very small to fit neatly inside tables */
+img{
+	width: 100px;
+	height: 75px;
+}
+
+
+
+
+
+
+
+

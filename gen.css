@@ -1,0 +1,129 @@
+/* This is a general style sheet for the NYC Parks' Species Database website */
+
+
+/* So older browsers know how to render HTML5 elements */
+header, section, article, nav, aside, footer, figure{ 
+	display: block;}
+
+/*Large background photo of leaves for document. The following code uses CSS3 to have the background image
+fill the entire screen.*/
+html { 
+  background: url("images/leaf_surrounding_smaller.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+	height: 100%;
+	width: 100%;
+
+
+}
+
+/*Page header and main content will stand out from background image on white background with rounded
+borders */
+
+
+/*Styling of the page header */
+header{
+	background-color: #FFFFFF;
+	opacity: 0.85;
+
+	width: 65%;
+
+	/*so section won't shrink too much on small screens */
+	min-width: 832px;
+
+	margin: 25px auto 0px auto;
+
+	padding: 5px 18px 5px 18px;
+
+	border: solid 2px #2b570f;
+
+	border-radius: 7px;
+
+
+	text-align: center;
+
+
+}
+
+
+
+
+
+
+/*Styling of page main content */
+#main{
+
+	background-color: #FFFFFF;
+	opacity: 0.85;
+
+	width: 65%;
+
+	/*so section won't shrink too much on small screens */
+	min-width: 832px;
+	min-height: 500px; 
+
+	margin: 50px auto 0px auto;
+
+	padding: 5px 18px 5px 18px;
+
+	border: solid 2px #2b570f;
+
+	border-radius: 7px;
+
+
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+/*Styling the navigation links */
+
+/* links in navigation are undecorated and center-alligned */
+
+nav li{
+	display: inline;
+	margin-right: 4%;
+	margin-left: 4%;
+
+	/*larger font for nav links */
+	font-size: 125%;
+}
+
+/* no underline for links, and different colors when activated */
+a:link{
+	text-decoration: none;
+
+}
+
+a:visited{
+	color: #660099;
+}
+
+a:hover{
+	color: #006633;
+}
+
+a:active{
+	color: #990000;
+}
+
+
+/* give the navigation links a text shadow */
+nav a:link{
+	text-shadow: 1px 1px 3px #666666;
+}
+
